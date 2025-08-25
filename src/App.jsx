@@ -147,12 +147,13 @@ export default function App() {
               path="/courses"
               element={
                 <Catalog
-                  items={visibleItems.filter((i) => i.category === "Courses")}
+                  items={visibleItems.filter((i) => i.type === "course")}
                   onClick={api.click}
                   heading="Courses"
                 />
               }
             />
+
 
             {/* Admin */}
             <Route

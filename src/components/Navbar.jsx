@@ -53,9 +53,16 @@ useEffect(() => {
               <path d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
-          <Link to="/" className="font-extrabold text-lg md:text-xl tracking-tight">
-            📚ResourceHub
-          </Link>
+         <Link
+  to="/"
+  onClick={(e) => {
+    e.preventDefault(); // prevent normal router nav
+    window.location.href = "/"; // force full refresh
+  }}
+>
+  📚 ResourceHub
+</Link>
+
         </div>
 
         {/* Desktop Nav */}
