@@ -12,9 +12,9 @@ export default function Navbar({ user: appUser, isAdmin: appIsAdmin }) {
   const [open, setOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
 
-  
+
   const { pathname } = useLocation();
-useEffect(() => {
+  useEffect(() => {
     if (!HAS_SUPABASE) {
       setIsAdmin((appUser?.email || "") === ADMIN_EMAIL);
       return;
@@ -53,15 +53,15 @@ useEffect(() => {
               <path d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
-         <Link
-  to="/"
-  onClick={(e) => {
-    e.preventDefault(); // prevent normal router nav
-    window.location.href = "/"; // force full refresh
-  }}
->
-  📚 ResourceHub
-</Link>
+          <Link
+            to="/"
+            onClick={(e) => {
+              e.preventDefault(); // prevent normal router nav
+              window.location.href = "/"; // force full refresh
+            }}
+          >
+            📚 ResourceHub
+          </Link>
 
         </div>
 
@@ -80,9 +80,9 @@ useEffect(() => {
             title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
           >
             {theme === "dark" ? (
-              <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M21.64 13A9 9 0 1 1 11 2.36a7 7 0 1 0 10.66 10.64z"/></svg>
+              <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M21.64 13A9 9 0 1 1 11 2.36a7 7 0 1 0 10.66 10.64z" /></svg>
             ) : (
-              <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+              <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
             )}
             <span className="hidden sm:inline text-sm">{theme === "dark" ? "Dark" : "Light"}</span>
           </button>
