@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   Custom Components
+   ========================= */
+
+/* Navbar links */
+.nav-link { 
+  @apply text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white px-3 py-2 rounded-xl transition; 
+}
+.nav-link.active { 
+  @apply text-blue-600 dark:text-blue-400; 
+}
+
+/* Buttons */
+.btn { 
+  @apply inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 hover:bg-slate-50 dark:hover:bg-slate-900 transition; 
+}
+.btn-primary { 
+  @apply inline-flex items-center justify-center rounded-2xl bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 shadow-blue dark:bg-slate-900 dark:hover:bg-slate-800 transition; 
+}
+
+/* Badge */
+.badge { 
+  @apply inline-flex items-center gap-1 rounded-full text-xs px-2 py-1 border border-slate-300 dark:border-slate-700; 
+}
+
+/* Cards & Sections */
+.card, section { 
+  @apply rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-blue hover:shadow-lg transition; 
+}
+
+/* Inputs & Selects */
+.input { 
+  @apply w-full rounded-xl border border-slate-300 dark:border-slate-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:bg-slate-950 transition; 
+}
+.select { 
+  @apply w-full rounded-xl border border-slate-300 dark:border-slate-700 px-3 py-2 bg-white dark:bg-slate-950 transition; 
+}
+
+/* Labels */
+.label { 
+  @apply block text-sm font-medium mb-1 text-slate-700 dark:text-slate-200; 
+}
+
+/* Keyboard / Key elements */
+.kbd { 
+  @apply inline-flex items-center rounded-md border border-slate-300 dark:border-slate-700 px-1.5 text-xs font-medium text-slate-600 dark:text-slate-300; 
+}
+
+/* Tables */
+.table { 
+  @apply w-full text-sm border-collapse; 
+}
+.table th { 
+  @apply text-left text-slate-500 font-medium py-2; 
+}
+.table td { 
+  @apply py-2 text-slate-700 dark:text-slate-200; 
+}
+
+/* Additional tweaks for smooth UI */
+body { 
+  @apply bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-200 transition-colors; 
+}
+a { 
+  @apply transition-colors; 
+}
+
+.container { @apply max-w-6xl mx-auto px-4; }

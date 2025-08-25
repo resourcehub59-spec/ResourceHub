@@ -1,0 +1,272 @@
+[
+  {
+    "title": "freeCodeCamp: JavaScript Algorithms and Data Structures",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "description": "Hands-on JS fundamentals",
+    "tags": "javascript|algorithms|beginner",
+    "source": "freeCodeCamp",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "freeCodeCamp: Responsive Web Design",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "description": "HTML & CSS basics with projects",
+    "tags": "html|css|frontend",
+    "source": "freeCodeCamp",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "freeCodeCamp: Front End Development Libraries",
+    "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+    "description": "React, Bootstrap, jQuery",
+    "tags": "frontend|react|ui",
+    "source": "freeCodeCamp",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "freeCodeCamp: Back End Development and APIs",
+    "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    "description": "Node.js + Express APIs",
+    "tags": "node|express|backend",
+    "source": "freeCodeCamp",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "freeCodeCamp: Data Analysis with Python",
+    "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+    "description": "Numpy, Pandas, Matplotlib",
+    "tags": "data-science|python",
+    "source": "freeCodeCamp",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "freeCodeCamp: Machine Learning with Python",
+    "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+    "description": "ML algorithms with scikit-learn",
+    "tags": "machine-learning|python",
+    "source": "freeCodeCamp",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Harvard CS50x: Introduction to Computer Science",
+    "url": "https://cs50.harvard.edu/x/",
+    "description": "Intro to Computer Science with C, Python, SQL",
+    "tags": "cs|intro|algorithms",
+    "source": "Harvard",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Harvard CS50’s Web Programming with Python and JavaScript",
+    "url": "https://cs50.harvard.edu/web/",
+    "description": "Advanced web development course",
+    "tags": "web|python|javascript",
+    "source": "Harvard",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "MIT OpenCourseWare: Introduction to Computer Science and Programming in Python",
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+    "description": "CS fundamentals using Python",
+    "tags": "cs|python|intro",
+    "source": "MIT OCW",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "MIT OCW: Machine Learning",
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-036-introduction-to-machine-learning-fall-2020/",
+    "description": "Intro ML concepts and algorithms",
+    "tags": "machine-learning|math",
+    "source": "MIT OCW",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Kaggle Learn: Python",
+    "url": "https://www.kaggle.com/learn/python",
+    "description": "Short practical Python course",
+    "tags": "python|data-science|beginner",
+    "source": "Kaggle",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Kaggle Learn: Pandas",
+    "url": "https://www.kaggle.com/learn/pandas",
+    "description": "Learn data manipulation with pandas",
+    "tags": "data-science|pandas|python",
+    "source": "Kaggle",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Kaggle Learn: Machine Learning",
+    "url": "https://www.kaggle.com/learn/machine-learning",
+    "description": "Basics of ML workflows",
+    "tags": "machine-learning|python",
+    "source": "Kaggle",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Kaggle Learn: Deep Learning",
+    "url": "https://www.kaggle.com/learn/deep-learning",
+    "description": "Intro to neural networks with Keras",
+    "tags": "deep-learning|keras",
+    "source": "Kaggle",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Stanford: Machine Learning (Andrew Ng)",
+    "url": "https://www.coursera.org/learn/machine-learning",
+    "description": "Classic ML foundations course",
+    "tags": "machine-learning|math|ai",
+    "source": "Stanford",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Stanford: Algorithms",
+    "url": "https://online.stanford.edu/courses/soe-ycsalgorithms-algorithms-specialization",
+    "description": "Algorithm design and analysis",
+    "tags": "algorithms|cs",
+    "source": "Stanford",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "IBM Data Science",
+    "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+    "description": "Hands-on Data Science with Python",
+    "tags": "data-science|python",
+    "source": "IBM",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Google: Android Basics in Kotlin",
+    "url": "https://developer.android.com/courses/android-basics-kotlin/course",
+    "description": "Intro Android app development",
+    "tags": "android|kotlin|mobile",
+    "source": "Google",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Google: Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "description": "Practical ML with TensorFlow",
+    "tags": "machine-learning|tensorflow|google",
+    "source": "Google",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Microsoft: Azure Fundamentals",
+    "url": "https://learn.microsoft.com/en-us/training/courses/az-900t00",
+    "description": "Cloud computing basics",
+    "tags": "cloud|azure|fundamentals",
+    "source": "Microsoft",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Microsoft: Power BI for Beginners",
+    "url": "https://learn.microsoft.com/en-us/training/paths/get-started-power-bi/",
+    "description": "Intro to Power BI dashboards",
+    "tags": "powerbi|data-visualization",
+    "source": "Microsoft",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Udacity: Intro to HTML and CSS",
+    "url": "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    "description": "Basic HTML and CSS",
+    "tags": "html|css|frontend",
+    "source": "Udacity",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Udacity: Version Control with Git",
+    "url": "https://www.udacity.com/course/version-control-with-git--ud123",
+    "description": "Learn Git and GitHub",
+    "tags": "git|github|version-control",
+    "source": "Udacity",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Udemy Free: Git & GitHub Crash Course",
+    "url": "https://www.udemy.com/course/git-and-github-crash-course-free/",
+    "description": "Quick intro to Git & GitHub",
+    "tags": "git|github|beginner",
+    "source": "Udemy",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Udemy Free: Python for Beginners",
+    "url": "https://www.udemy.com/course/pythonforbeginnersfree/",
+    "description": "Intro Python for new learners",
+    "tags": "python|beginner",
+    "source": "Udemy",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "Pluralsight Free: JavaScript Fundamentals",
+    "url": "https://www.pluralsight.com/courses/javascript-fundamentals",
+    "description": "Core JS basics",
+    "tags": "javascript|frontend",
+    "source": "Pluralsight",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "LinkedIn Learning: Learning Python",
+    "url": "https://www.linkedin.com/learning/learning-python-2",
+    "description": "Python basics explained",
+    "tags": "python|beginner",
+    "source": "LinkedIn Learning",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "LinkedIn Learning: SQL Essential Training",
+    "url": "https://www.linkedin.com/learning/sql-essential-training-2019",
+    "description": "Learn SQL for databases",
+    "tags": "sql|database|beginner",
+    "source": "LinkedIn Learning",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "edX: Introduction to Linux",
+    "url": "https://www.edx.org/course/introduction-to-linux",
+    "description": "Free Linux Foundation course",
+    "tags": "linux|os|sysadmin",
+    "source": "Linux Foundation",
+    "thumbnail": "",
+    "category": "Courses"
+  },
+  {
+    "title": "edX: Introduction to Cloud Computing",
+    "url": "https://www.edx.org/course/introduction-to-cloud-computing",
+    "description": "Cloud fundamentals for beginners",
+    "tags": "cloud|beginner",
+    "source": "edX",
+    "thumbnail": "",
+    "category": "Courses"
+  }
+]

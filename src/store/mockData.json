@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Code",
+    "description": "A handbook of agile software craftsmanship.",
+    "url": "https://example.com/clean-code",
+    "type": "book",
+    "price": 0,
+    "tags": [
+      "software",
+      "craftsmanship"
+    ],
+    "category": "Programming",
+    "source": "Community",
+    "thumbnail": "",
+    "published": true,
+    "clicks": 12,
+    "dateAdded": "2024-05-01"
+  },
+  {
+    "id": 2,
+    "title": "React for Beginners",
+    "description": "A beginner friendly React course.",
+    "url": "https://example.com/react-course",
+    "type": "course",
+    "price": 49,
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "category": "Web",
+    "source": "Community",
+    "thumbnail": "",
+    "published": true,
+    "clicks": 5,
+    "dateAdded": "2024-08-10"
+  },
+  {
+    "id": 3,
+    "title": "Junior Frontend Developer",
+    "description": "Remote junior role focused on React + Tailwind.",
+    "url": "https://example.com/job-react",
+    "type": "job",
+    "price": 0,
+    "tags": [
+      "react",
+      "tailwind"
+    ],
+    "category": "Jobs",
+    "source": "Example Co",
+    "thumbnail": "",
+    "published": true,
+    "clicks": 2,
+    "dateAdded": "2025-01-12"
+  }
+]

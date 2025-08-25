@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "b1",
+      "type": "book",
+      "title": "You Don't Know JS Yet (Free)",
+      "description": "A deep dive into JavaScript core mechanisms.",
+      "url": "https://github.com/getify/You-Dont-Know-JS",
+      "price": 0,
+      "tags": [
+        "javascript",
+        "programming",
+        "web"
+      ],
+      "category": "Programming",
+      "published": true,
+      "thumbnail": "",
+      "source": "GitHub",
+      "dateAdded": "2025-08-01",
+      "clicks": 0
+    },
+    {
+      "id": "j1",
+      "type": "job",
+      "title": "UNICEF Internship Programme",
+      "description": "Global internships for students and recent graduates.",
+      "url": "https://www.unicef.org/careers/internships",
+      "price": 0,
+      "tags": [
+        "internship",
+        "global",
+        "ngo"
+      ],
+      "category": "Internships",
+      "published": true,
+      "thumbnail": "",
+      "source": "UNICEF",
+      "dateAdded": "2025-07-20",
+      "clicks": 0
+    },
+    {
+      "id": "c1",
+      "type": "course",
+      "title": "CS50x: Introduction to Computer Science (Free)",
+      "description": "Harvard's legendary entry-level CS course.",
+      "url": "https://cs50.harvard.edu/x",
+      "price": 0,
+      "tags": [
+        "computer science",
+        "beginner"
+      ],
+      "category": "Computer Science",
+      "published": true,
+      "thumbnail": "",
+      "source": "Harvard",
+      "dateAdded": "2025-06-18",
+      "clicks": 0
+    },
+    {
+      "id": "b2",
+      "type": "book",
+      "title": "Designing Data-Intensive Applications (Paid)",
+      "description": "Reliable, scalable, and maintainable systems.",
+      "url": "https://dataintensive.net/",
+      "price": 49,
+      "tags": [
+        "architecture",
+        "databases"
+      ],
+      "category": "Software Architecture",
+      "published": true,
+      "thumbnail": "",
+      "source": "O'Reilly",
+      "dateAdded": "2025-06-05",
+      "clicks": 0
+    }
+  ]
+}
